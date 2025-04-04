@@ -1,16 +1,14 @@
+import { useState } from 'react'
 
 import './App.css'
-import StudentDashboard from './pages/student/studentDashboard'
+import AdminDashboard from './Pages/Admin/adminDashboard'
 
 function App() {
-
+  const [count, setCount] = useState(0)
 
   return (
     <>
-
-
-    <StudentDashboard/>
-    
+        <AdminDashboard/>
     </>
   )
 }
